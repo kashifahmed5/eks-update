@@ -37,50 +37,50 @@ variable "bucket" {
   type =  string
   default = "sohail-terraform-state"
 }
-variable "bucket_key" {
-  type = string
-  default = "sohail/gitlab-runner/terraform.tfstate"
-}
+# variable "bucket_key" {
+#   type = string
+#   default = "sohail/gitlab-runner/terraform.tfstate"
+# }
 
 variable "API_PRIVATE_ACCESS" {
   type    = bool
   default = false
 }
 
-variable "ENGINE" {
-  type    = string
-  default = "mysql"
-}
+# variable "ENGINE" {
+#   type    = string
+#   default = "mysql"
+# }
 
-variable "ENGINE_VERSION" {
-  type    = string
-  default = "5.7"
-}
+# variable "ENGINE_VERSION" {
+#   type    = string
+#   default = "5.7"
+# }
 
-variable "DB_NAME" {
-  type    = string
-  default = "test"
-}
+# variable "DB_NAME" {
+#   type    = string
+#   default = "test"
+# }
 
-variable "DB_USERNAME" {
-  type    = string
-  default = "testuser"
-}
+# variable "DB_USERNAME" {
+#   type    = string
+#   default = "testuser"
+# }
 
-variable "DB_PASSWORD" {
-  type    = string
-  default = "testuserpassword"
-}
+# variable "DB_PASSWORD" {
+#   type    = string
+#   default = "testuserpassword"
+# }
 
-variable "INSTANCE_CLASS" {
-  type    = string
-  default = "db.t3.micro"
-}
+# variable "INSTANCE_CLASS" {
+#   type    = string
+#   default = "db.t3.micro"
+# }
 
-variable "DB_PARAMETER_GROUP_NAME" {
-  type    = string
-  default = "default.mysql5.7"
-}
+# variable "DB_PARAMETER_GROUP_NAME" {
+#   type    = string
+#   default = "default.mysql5.7"
+# }
 
 variable "AWS_REGION" {
   type    = string

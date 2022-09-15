@@ -7,7 +7,7 @@ terraform {
   backend "s3" {
     bucket =  var.bucket
     region = "us-east-1"
-    key    = var.bucket_key
+    key    = "sohail/gitlab-runner/terraform.tfstate"
   }
   required_providers {
     kubectl = {
