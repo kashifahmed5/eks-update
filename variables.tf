@@ -33,6 +33,15 @@ variable "WORKERS_SUBNETS" {
   default     = ["subnet-a0b2d68b", "subnet-098fdc323771fc4b6"]
 }
 
+variable "bucket" {
+  type =  string
+  default = "sohail-terraform-state"
+}
+variable "bucket_key" {
+  type = string
+  default = "sohail/gitlab-runner/terraform.tfstate"
+}
+
 variable "API_PRIVATE_ACCESS" {
   type    = bool
   default = false

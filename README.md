@@ -27,6 +27,8 @@ Terraform help in deploy all resource at once and update as required.
  1. VPC_ID
  2. API_SUBNET
  3. WORKERS_SUBNETS
+ 4. bucket   
+ 5. bucket_key
 
  In eks/variables.tf
  1. map_user
