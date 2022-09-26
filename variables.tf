@@ -82,9 +82,7 @@ variable "API_PRIVATE_ACCESS" {
 #   default = "default.mysql5.7"
 # }
 
-#variable "AWS_REGION" {
-#  type    = string
-#  default = "us-east-1"
-#}
-
-#####
+variable "AWS_REGION" {
+ type    = string
+ default = "us-east-1"
+}
