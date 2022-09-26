@@ -37,12 +37,3 @@ data "aws_eks_cluster_auth" "this" {
 #   force      = true
 #   depends_on = [time_sleep.wait_100s]
 # }
-
-
-
-
-
-
-
-
-#######################################################
