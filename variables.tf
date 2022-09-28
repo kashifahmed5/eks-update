@@ -1,4 +1,4 @@
-variable "APP_NAME" {
+variable "CLUSTER_NAME" {
   type        = string
   description = "Name for the eks cluster."
   default     = "test-cluster"
