@@ -14,7 +14,6 @@ variable "VPC_ID" {
 }
 
 variable "CLUSTER_VERSION" {
-  
   type        = string
   description = "Kubernetes version in EKS."
 }
