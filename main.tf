@@ -1,6 +1,6 @@
 module "eks" {
   source          = "./eks"
-  CLUSTER_NAME    = var.APP_NAME
+  CLUSTER_NAME    = var.CLUSTER_NAME
   CLUSTER_VERSION = var.CLUSTER_VERSION
   WORKERS_SUBNETS = var.WORKERS_SUBNETS
   INSTANCE_TYPES  = var.INSTANCE_TYPES
